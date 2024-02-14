@@ -65,14 +65,16 @@ header {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #06aed5 !important;
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
+  background-color: #06aed5;
   transition: all 0.3s ease-in-out;
 }
+
 
 .far {
   font-size: 25px; 
