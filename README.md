@@ -1,87 +1,37 @@
 # Third-Party APIs: Work Day Scheduler
+An application to allow users to save events for each work hour of the day, featuring HTML, CSS, day.js library and JQuerey.
 
-## Your Task
-
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
-You'll need to use the [Day.js](https://day.js.org/docs/en/display/format) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+## Descritption
+This project is a daily planner that allows employees to organise their work day. It utilises the day.js library to handle date and time, as well as local storage. This project was built to become familiar with the day.js library, JQuerey and local storage in javascript. During the course of this project the functionality of the day.js library  and local storage was understood to generate this work day planner. 
 
 ## User Story
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+* AS AN employee with a busy schedule I WANT to add important events to a daily planner SO THAT I can manage my time effectively
 
-## Acceptance Criteria
-
-The app should:
-
-* Display the current day at the top of the calender when a user opens the planner.
+## This project does the following:
+* Displays the current day at the top of the calender when a user opens the planner.
  
-* Present timeblocks for standard business hours when the user scrolls down.
+* Presents timeblocks for standard business hours when the user scrolls down.
  
-* Color-code each timeblock based on past, present, and future when the timeblock is viewed.
+* Each timeblock is colour coded based on past, present, and future when the timeblock is viewed.
  
-* Allow a user to enter an event when they click a timeblock
+* Allows the user to enter an event when they click a timeblock
 
-* Save the event in local storage when the save button is clicked in that timeblock.
+* Saves the event in local storage when the save button is clicked in that timeblock.
 
-* Persist events between refreshes of a page
+* Persists events between refreshes of a page
 
-The following animation demonstrates the application functionality:
+## Website view of application: 
+![Screenshot of Work Day Scheduler Website view ](images/schedular.png)
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
+### Link to deployed application
+Access the live application [here](https://jessi994.github.io/work-day-scheduler/)
 
 
-## Grading Requirements
+### Credits
 
-This homework is graded based on the following criteria: 
+N/A
 
-### Technical Acceptance Criteria: 40%
+### License
 
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+N/A

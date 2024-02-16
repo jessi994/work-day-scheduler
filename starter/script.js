@@ -70,7 +70,7 @@ function updateTimeBlocks() {
         let blockTimeText = block.find('.hour').text();
         // Get hour number
         let blockHour = parseInt(blockTimeText, 10);
-        // Check if time ends with "PM"
+        // Check if time ends with PM
         let isBlockPM = /PM$/.test(blockTimeText);
 
         // Convert block hour to 24-hour format for comparison
